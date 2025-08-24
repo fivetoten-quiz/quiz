@@ -42,7 +42,7 @@ const App = () => {
             <div className="bg-white dark:bg-gray-800 rounded-lg ring shadow-xl ring-gray-900/5 min-h-screen">
               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></link>
               <Routes>
-                <Route path="/" element={<Registration />} />
+                <Route path="/quiz" element={<Registration />} />
                 <Route path="/home" element={
                   <>
                     <Home/> {/* Inside becomes your layout component */}   
