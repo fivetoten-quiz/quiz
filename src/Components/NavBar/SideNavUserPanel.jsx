@@ -11,7 +11,7 @@ const SideNavUserPanel = () => {
   const handleLogout = async () => {
     try {
       await signOut(auth);
-      navigate('/'); // Redirect to login page after logout
+      navigate('/quiz'); // Redirect to login page after logout
     } catch (error) {
       console.error('Logout error:', error);
     }
