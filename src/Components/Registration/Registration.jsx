@@ -115,7 +115,7 @@ const Registration = () => {
       // Save/update user data in Firestore
       await setDoc(doc(db, 'users', user.uid), {
         uid: user.uid,
-        nickname: user.nickname,
+        // nickname: user.nickname,
         email: user.email,
         photoURL: user.photoURL,
         createdAt: new Date(),
