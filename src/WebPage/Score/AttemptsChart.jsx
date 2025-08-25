@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { Chart as ChartJS, BarElement, LineElement, PointElement, LinearScale, CategoryScale, Tooltip, Legend } from 'chart.js';
+import { Chart as ChartJS, BarElement, LineElement, PointElement, LinearScale, CategoryScale, Tooltip, Legend } from 'chart.js/auto';
 import { Chart } from 'react-chartjs-2';
 
 ChartJS.register(
